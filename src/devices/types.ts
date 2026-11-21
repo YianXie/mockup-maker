@@ -34,6 +34,8 @@ export interface Cutout {
 export interface Geometry {
   frame: { w: number; h: number }
   body: RoundRect
+  /** black front glass inside the thin colored band */
+  glass: RoundRect
   screen: RoundRect
   cutouts: Cutout[]
   buttons: RoundRect[]

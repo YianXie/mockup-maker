@@ -22,7 +22,9 @@ describe('catalog', () => {
   it('geometry nests', () => {
     for (const { spec, geometry: g } of DEVICES) {
       const frame = { x: 0, y: 0, w: g.frame.w, h: g.frame.h }
-      expect(inside(g.screen, g.body), `${spec.id} screen in body`).toBe(true)
+      expect(inside(g.screen, g.glass), `${spec.id} screen in glass`).toBe(true)
+      expect(inside(g.glass, g.body), `${spec.id} glass in body`).toBe(true)
+      expect(g.glass.x - g.body.x, `${spec.id} band`).toBeGreaterThan(0)
       expect(inside(g.body, frame), `${spec.id} body in frame`).toBe(true)
       for (const c of g.cutouts) expect(inside(c.rect, g.body), `${spec.id} cutout`).toBe(true)
       for (const b of g.buttons) expect(inside(b, frame), `${spec.id} button`).toBe(true)

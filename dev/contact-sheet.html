@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Contact sheet (dev)</title>
+    <style>
+      body { font: 12px system-ui, sans-serif; margin: 16px; background: #fafafa; }
+      #grid { display: grid; grid-template-columns: repeat(6, 1fr); gap: 12px; }
+      figure { margin: 0; background: #fff; border: 1px solid #ddd; border-radius: 8px; padding: 6px; }
+      canvas { width: 100%; height: auto; display: block; }
+      figcaption { text-align: center; margin-top: 4px; }
+    </style>
+  </head>
+  <body>
+    <div id="grid"></div>
+    <script type="module" src="./contact-sheet.ts"></script>
+  </body>
+</html>

@@ -47,6 +47,10 @@ export function deviceFromSpec(spec: DeviceSpec): Device {
   // Body/screen in local coords (body at 0,0); shifted into frame coords at the end.
   const body: RoundRect = { x: 0, y: 0, w: W + 2 * side, h: H + top + bottom, r: bodyR }
   const screen: RoundRect = { x: side, y: top, w: W, h: H, r: sr }
+  // Thin colored band; everything inside it is black glass.
+  const bandK = { phone: 0.014, tablet: 0.012, laptop: 0.006, watch: 0.035 }[spec.kind]
+  const band = bandK * W
+  const glass: RoundRect = { x: band, y: band, w: body.w - 2 * band, h: body.h - 2 * band, r: Math.max(0, bodyR - band) }
 
   const cutouts: Cutout[] = []
   const centeredTop = (w: number, h: number, y: number): Rect => ({ x: screen.x + (W - w) / 2, y: screen.y + y, w, h })
@@ -122,6 +126,7 @@ export function deviceFromSpec(spec: DeviceSpec): Device {
   const geometry: Geometry = {
     frame: { w: maxX - minX, h: maxY - minY },
     body: shift(body),
+    glass: shift(glass),
     screen: shift(screen),
     cutouts: cutouts.map((c) => ({ ...c, rect: shift(c.rect) })),
     buttons: buttons.map(shift),
