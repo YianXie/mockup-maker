@@ -12,5 +12,5 @@ export default defineConfig(({ mode }) => ({
           : { main: resolve(__dirname, 'index.html') },
     },
   },
-  test: { environment: 'jsdom' },
+  test: { environment: 'jsdom', environmentOptions: { jsdom: { url: 'http://localhost/' } }, setupFiles: ['src/test-setup.ts'] },
 }))

@@ -12,7 +12,7 @@ export function createFakeCtx(): FakeCtx {
   }
   const target = { calls } as unknown as FakeCtx
   return new Proxy(target, {
-    get(t, key: string) {
+    get(_t, key: string) {
       if (key === 'calls') return calls
       if (key in props) return props[key]
       return (...args: unknown[]) => {
