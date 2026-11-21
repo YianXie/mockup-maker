@@ -12,6 +12,7 @@ export interface ControlHandlers {
 export interface Controls {
   el: HTMLElement
   sync(scene: Scene): void
+  setBusy(busy: boolean): void
 }
 
 function h<K extends keyof HTMLElementTagNameMap>(tag: K, attrs: Record<string, string> = {}, ...kids: (Node | string)[]) {
@@ -69,7 +70,10 @@ export function createControls(h_: ControlHandlers): Controls {
   none.addEventListener('click', () => h_.onChange({ background: { type: 'transparent' } }))
   const picker = h('input', { type: 'color', name: 'bgcolor', title: 'Solid color', value: '#ffffff' })
   const pickerWrap = h('label', { class: 'swatch picker', 'data-bg': 'solid', 'aria-pressed': 'false' }, picker)
-  picker.addEventListener('input', () => h_.onChange({ background: { type: 'solid', color: picker.value } }))
+  const applySolid = () => h_.onChange({ background: { type: 'solid', color: picker.value } })
+  picker.addEventListener('input', applySolid)
+  // Clicking the swatch applies the current color right away (e.g. white), even if the picker value doesn't change.
+  picker.addEventListener('click', applySolid)
   const bgRow = h('div', { class: 'swatches' }, none, pickerWrap)
   GRADIENTS.forEach((g, i) => {
     const b = h('button', { type: 'button', class: 'swatch', 'data-bg': `gradient-${i}`, title: g.name, 'aria-pressed': 'false' })
@@ -100,8 +104,18 @@ export function createControls(h_: ControlHandlers): Controls {
   )
 
   let colorsFor = ''
+  let busy = false
+  let hasImage = false
+  const syncDownload = () => {
+    download.disabled = !hasImage || busy
+    download.textContent = busy ? 'Exporting…' : 'Download PNG'
+  }
   return {
     el,
+    setBusy(b) {
+      busy = b
+      syncDownload()
+    },
     sync(scene) {
       const d = getDevice(scene.deviceId)!
       select.value = scene.deviceId
@@ -124,9 +138,11 @@ export function createControls(h_: ControlHandlers): Controls {
       const bg = scene.background
       press(bgRow, 'bg', bg.type === 'gradient' ? `gradient-${bg.preset}` : bg.type)
       if (bg.type === 'solid') picker.value = bg.color
+      pickerWrap.style.background = bg.type === 'solid' ? bg.color : ''
       size.value = String(scene.deviceSize)
       size.disabled = scene.aspect === 'tight'
-      download.disabled = !scene.image
+      hasImage = !!scene.image
+      syncDownload()
     },
   }
 }

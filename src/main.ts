@@ -1,6 +1,8 @@
 import './style.css'
 import { exportSize, render } from './draw/render'
 import { IMAGE_ERROR, downloadBlob, exportPng, loadImage, pickImageFile } from './input'
+
+export const EXPORT_ERROR = "Couldn't export the PNG. Please try again."
 import { loadSettings, sanitize, saveSettings, type Scene, type Settings } from './scene'
 import { createControls } from './ui/controls'
 
@@ -12,8 +14,12 @@ function storage(): Storage | null {
   }
 }
 
-export function mountApp(root: HTMLElement): void {
+/** Mounts the editor into `root`. Returns a teardown that removes window-level listeners. */
+export function mountApp(root: HTMLElement): () => void {
+  const ac = new AbortController()
+  const opts = { signal: ac.signal }
   let scene: Scene = { ...loadSettings(storage()), image: null }
+  let exporting = false
 
   const canvas = document.createElement('canvas')
   canvas.className = 'preview-canvas'
@@ -35,8 +41,17 @@ export function mountApp(root: HTMLElement): void {
     onChange: (patch) => update(patch),
     onUpload: () => file.click(),
     onDownload: async () => {
-      if (!scene.image) return
-      downloadBlob(await exportPng(scene), `mockup-${scene.deviceId}.png`)
+      if (!scene.image || exporting) return
+      exporting = true
+      controls.setBusy(true)
+      try {
+        downloadBlob(await exportPng(scene), `mockup-${scene.deviceId}.png`)
+      } catch {
+        showError(EXPORT_ERROR)
+      } finally {
+        exporting = false
+        controls.setBusy(false)
+      }
     },
   })
 
@@ -85,20 +100,33 @@ export function mountApp(root: HTMLElement): void {
 
   // Image input: picker, drop, paste.
   let errorTimer: ReturnType<typeof setTimeout> | undefined
+  let loadSeq = 0
+  const release = (img: Scene['image']) => {
+    if (img && 'close' in img && typeof img.close === 'function') img.close()
+  }
   async function useFile(f: File | null) {
+    const seq = ++loadSeq
     if (!f) {
       showError()
       return
     }
     try {
-      update({ image: await loadImage(f) })
+      const img = await loadImage(f)
+      if (seq !== loadSeq) {
+        release(img) // a newer file was chosen while this one decoded
+        return
+      }
+      const old = scene.image
+      update({ image: img })
+      release(old)
       error.textContent = ''
+      clearTimeout(errorTimer)
     } catch {
-      showError()
+      if (seq === loadSeq) showError()
     }
   }
-  function showError() {
-    error.textContent = IMAGE_ERROR
+  function showError(message = IMAGE_ERROR) {
+    error.textContent = message
     clearTimeout(errorTimer)
     errorTimer = setTimeout(() => (error.textContent = ''), 5000)
   }
@@ -109,23 +137,32 @@ export function mountApp(root: HTMLElement): void {
   stage.addEventListener('click', () => {
     if (!scene.image) file.click()
   })
-  stage.addEventListener('dragover', (e) => {
+  // Accept drops anywhere on the page so a near-miss never navigates the tab to the file.
+  window.addEventListener('dragover', (e) => {
     e.preventDefault()
     stage.classList.add('dragging')
-  })
-  stage.addEventListener('dragleave', () => stage.classList.remove('dragging'))
-  stage.addEventListener('drop', (e) => {
+  }, opts)
+  window.addEventListener('dragleave', (e) => {
+    if (!e.relatedTarget) stage.classList.remove('dragging')
+  }, opts)
+  window.addEventListener('drop', (e) => {
     e.preventDefault()
     stage.classList.remove('dragging')
-    void useFile(pickImageFile(e.dataTransfer?.files))
-  })
+    if (e.dataTransfer?.files.length) void useFile(pickImageFile(e.dataTransfer.files))
+  }, opts)
   window.addEventListener('paste', (e) => {
-    const f = pickImageFile(e.clipboardData?.files)
-    if (f) void useFile(f)
-  })
+    const files = e.clipboardData?.files
+    if (!files?.length) return // plain text paste: ignore
+    void useFile(pickImageFile(files))
+  }, opts)
 
-  if (typeof ResizeObserver !== 'undefined') new ResizeObserver(schedule).observe(stage)
+  const ro = typeof ResizeObserver !== 'undefined' ? new ResizeObserver(schedule) : null
+  ro?.observe(stage)
   update({})
+  return () => {
+    ac.abort()
+    ro?.disconnect()
+  }
 }
 
 const root = document.getElementById('app')

@@ -13,5 +13,6 @@ export function getDevice(id: string): Device | undefined {
 const FAMILY_ORDER: Family[] = ['iPhone', 'iPad', 'Mac', 'Watch', 'Android']
 
 export function devicesByFamily(): { family: Family; devices: Device[] }[] {
-  return FAMILY_ORDER.map((family) => ({ family, devices: DEVICES.filter((d) => d.spec.family === family) }))
+  const byName = (a: Device, b: Device) => a.spec.name.localeCompare(b.spec.name, 'en', { numeric: true })
+  return FAMILY_ORDER.map((family) => ({ family, devices: DEVICES.filter((d) => d.spec.family === family).sort(byName) }))
 }

@@ -60,3 +60,16 @@ describe('catalog', () => {
     expect(devicesByFamily().map((g) => g.family)).toEqual(['iPhone', 'iPad', 'Mac', 'Watch', 'Android'])
   })
 })
+
+describe('dropdown order', () => {
+  it('sorts each family by name, numbers in numeric order', () => {
+    for (const { devices } of devicesByFamily()) {
+      const names = devices.map((d) => d.spec.name)
+      const sorted = [...names].sort((a, b) => a.localeCompare(b, 'en', { numeric: true }))
+      expect(names).toEqual(sorted)
+    }
+    const iphones = devicesByFamily()[0].devices.map((d) => d.spec.id)
+    expect(iphones.indexOf('iphone-11')).toBeLessThan(iphones.indexOf('iphone-12'))
+    expect(iphones.indexOf('iphone-17-pro')).toBeLessThan(iphones.indexOf('iphone-18-pro'))
+  })
+})
