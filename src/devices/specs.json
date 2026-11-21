@@ -1,0 +1,2418 @@
+[
+ {
+  "id": "iphone-17e",
+  "name": "iPhone 17e",
+  "family": "iPhone",
+  "kind": "phone",
+  "screen": {
+   "w": 1170,
+   "h": 2532
+  },
+  "cutout": {
+   "type": "notch",
+   "w": 0.42
+  },
+  "radiusPt": 47.33,
+  "scale": 3,
+  "colors": [
+   {
+    "name": "Black",
+    "hex": "#2C2C2E"
+   },
+   {
+    "name": "White",
+    "hex": "#F5F5F0"
+   },
+   {
+    "name": "Soft Pink",
+    "hex": "#F3D9DC"
+   }
+  ],
+  "year": 2026,
+  "source": "https://www.apple.com/iphone-17e/specs/"
+ },
+ {
+  "id": "iphone-18-pro",
+  "name": "iPhone 18 Pro",
+  "family": "iPhone",
+  "kind": "phone",
+  "screen": {
+   "w": 1206,
+   "h": 2622
+  },
+  "cutout": {
+   "type": "island",
+   "scale": 0.7
+  },
+  "radiusPt": 62,
+  "scale": 3,
+  "colors": [
+   {
+    "name": "Black",
+    "hex": "#2A2A2C"
+   },
+   {
+    "name": "Silver",
+    "hex": "#E3E4E5"
+   },
+   {
+    "name": "Glacier",
+    "hex": "#CFDDE6"
+   },
+   {
+    "name": "Burgundy",
+    "hex": "#6B2433"
+   }
+  ],
+  "year": 2026,
+  "source": "https://www.apple.com/ie/iphone-18-pro/specs/"
+ },
+ {
+  "id": "iphone-18-pro-max",
+  "name": "iPhone 18 Pro Max",
+  "family": "iPhone",
+  "kind": "phone",
+  "screen": {
+   "w": 1320,
+   "h": 2868
+  },
+  "cutout": {
+   "type": "island",
+   "scale": 0.7
+  },
+  "radiusPt": 62,
+  "scale": 3,
+  "colors": [
+   {
+    "name": "Black",
+    "hex": "#2A2A2C"
+   },
+   {
+    "name": "Silver",
+    "hex": "#E3E4E5"
+   },
+   {
+    "name": "Glacier",
+    "hex": "#CFDDE6"
+   },
+   {
+    "name": "Burgundy",
+    "hex": "#6B2433"
+   }
+  ],
+  "year": 2026,
+  "source": "https://support.apple.com/en-gb/148591"
+ },
+ {
+  "id": "iphone-duo-inner",
+  "name": "iPhone Duo (inner display)",
+  "family": "iPhone",
+  "kind": "tablet",
+  "screen": {
+   "w": 1878,
+   "h": 2670
+  },
+  "cutout": {
+   "type": "none"
+  },
+  "radiusPt": 0,
+  "scale": 0,
+  "colors": [
+   {
+    "name": "Night Sky",
+    "hex": "#1F2230"
+   },
+   {
+    "name": "Star White",
+    "hex": "#ECEBE6"
+   }
+  ],
+  "year": 2026,
+  "source": "https://www.apple.com/iphone-duo/specs/"
+ },
+ {
+  "id": "iphone-duo-outer",
+  "name": "iPhone Duo (outer display)",
+  "family": "iPhone",
+  "kind": "phone",
+  "screen": {
+   "w": 1398,
+   "h": 2034
+  },
+  "cutout": {
+   "type": "island"
+  },
+  "radiusPt": 0,
+  "scale": 3,
+  "colors": [
+   {
+    "name": "Night Sky",
+    "hex": "#1F2230"
+   },
+   {
+    "name": "Star White",
+    "hex": "#ECEBE6"
+   }
+  ],
+  "year": 2026,
+  "source": "https://www.apple.com/iphone-duo/specs/"
+ },
+ {
+  "id": "iphone-16e",
+  "name": "iPhone 16e",
+  "family": "iPhone",
+  "kind": "phone",
+  "screen": {
+   "w": 1170,
+   "h": 2532
+  },
+  "cutout": {
+   "type": "notch",
+   "w": 0.42
+  },
+  "radiusPt": 47.33,
+  "scale": 3,
+  "colors": [
+   {
+    "name": "Black",
+    "hex": "#2C2C2E"
+   },
+   {
+    "name": "White",
+    "hex": "#F5F5F0"
+   }
+  ],
+  "year": 2025,
+  "source": "https://www.apple.com/iphone-16e/specs/"
+ },
+ {
+  "id": "iphone-17",
+  "name": "iPhone 17",
+  "family": "iPhone",
+  "kind": "phone",
+  "screen": {
+   "w": 1206,
+   "h": 2622
+  },
+  "cutout": {
+   "type": "island"
+  },
+  "radiusPt": 62,
+  "scale": 3,
+  "colors": [
+   {
+    "name": "Black",
+    "hex": "#353535"
+   },
+   {
+    "name": "White",
+    "hex": "#F5F5F5"
+   },
+   {
+    "name": "Mist Blue",
+    "hex": "#A9B9CF"
+   },
+   {
+    "name": "Lavender",
+    "hex": "#DCD0E8"
+   }
+  ],
+  "year": 2025,
+  "source": "https://www.apple.com/iphone-17/specs/"
+ },
+ {
+  "id": "iphone-17-pro",
+  "name": "iPhone 17 Pro",
+  "family": "iPhone",
+  "kind": "phone",
+  "screen": {
+   "w": 1206,
+   "h": 2622
+  },
+  "cutout": {
+   "type": "island"
+  },
+  "radiusPt": 62,
+  "scale": 3,
+  "colors": [
+   {
+    "name": "Cosmic Orange",
+    "hex": "#E8743B"
+   },
+   {
+    "name": "Deep Blue",
+    "hex": "#2F3A52"
+   },
+   {
+    "name": "Silver",
+    "hex": "#E3E4E5"
+   }
+  ],
+  "year": 2025,
+  "source": "https://www.apple.com/iphone-17-pro/specs/"
+ },
+ {
+  "id": "iphone-17-pro-max",
+  "name": "iPhone 17 Pro Max",
+  "family": "iPhone",
+  "kind": "phone",
+  "screen": {
+   "w": 1320,
+   "h": 2868
+  },
+  "cutout": {
+   "type": "island"
+  },
+  "radiusPt": 62,
+  "scale": 3,
+  "colors": [
+   {
+    "name": "Cosmic Orange",
+    "hex": "#E8743B"
+   },
+   {
+    "name": "Deep Blue",
+    "hex": "#2F3A52"
+   },
+   {
+    "name": "Silver",
+    "hex": "#E3E4E5"
+   }
+  ],
+  "year": 2025,
+  "source": "https://www.apple.com/iphone-17-pro/specs/"
+ },
+ {
+  "id": "iphone-air",
+  "name": "iPhone Air",
+  "family": "iPhone",
+  "kind": "phone",
+  "screen": {
+   "w": 1260,
+   "h": 2736
+  },
+  "cutout": {
+   "type": "island"
+  },
+  "radiusPt": 62,
+  "scale": 3,
+  "colors": [
+   {
+    "name": "Space Black",
+    "hex": "#1C1C1E"
+   },
+   {
+    "name": "Cloud White",
+    "hex": "#F3F3F1"
+   },
+   {
+    "name": "Light Gold",
+    "hex": "#EFE3C8"
+   },
+   {
+    "name": "Sky Blue",
+    "hex": "#CFE1EE"
+   }
+  ],
+  "year": 2025,
+  "source": "https://www.apple.com/iphone-air/specs/"
+ },
+ {
+  "id": "iphone-16",
+  "name": "iPhone 16",
+  "family": "iPhone",
+  "kind": "phone",
+  "screen": {
+   "w": 1179,
+   "h": 2556
+  },
+  "cutout": {
+   "type": "island"
+  },
+  "radiusPt": 55,
+  "scale": 3,
+  "colors": [
+   {
+    "name": "Black",
+    "hex": "#3C4042"
+   },
+   {
+    "name": "White",
+    "hex": "#FAFAFA"
+   },
+   {
+    "name": "Teal",
+    "hex": "#B0D4D2"
+   },
+   {
+    "name": "Ultramarine",
+    "hex": "#9AADF6"
+   }
+  ],
+  "year": 2024,
+  "source": "https://support.apple.com/en-us/121029"
+ },
+ {
+  "id": "iphone-16-plus",
+  "name": "iPhone 16 Plus",
+  "family": "iPhone",
+  "kind": "phone",
+  "screen": {
+   "w": 1290,
+   "h": 2796
+  },
+  "cutout": {
+   "type": "island"
+  },
+  "radiusPt": 55,
+  "scale": 3,
+  "colors": [
+   {
+    "name": "Black",
+    "hex": "#3C4042"
+   },
+   {
+    "name": "White",
+    "hex": "#FAFAFA"
+   },
+   {
+    "name": "Pink",
+    "hex": "#F2ADDA"
+   },
+   {
+    "name": "Ultramarine",
+    "hex": "#9AADF6"
+   }
+  ],
+  "year": 2024,
+  "source": "https://support.apple.com/en-us/121030"
+ },
+ {
+  "id": "iphone-16-pro",
+  "name": "iPhone 16 Pro",
+  "family": "iPhone",
+  "kind": "phone",
+  "screen": {
+   "w": 1206,
+   "h": 2622
+  },
+  "cutout": {
+   "type": "island"
+  },
+  "radiusPt": 62,
+  "scale": 3,
+  "colors": [
+   {
+    "name": "Black Titanium",
+    "hex": "#3C3C3D"
+   },
+   {
+    "name": "White Titanium",
+    "hex": "#F2F1ED"
+   },
+   {
+    "name": "Natural Titanium",
+    "hex": "#C2BCB2"
+   },
+   {
+    "name": "Desert Titanium",
+    "hex": "#BFA48F"
+   }
+  ],
+  "year": 2024,
+  "source": "https://support.apple.com/en-us/121031"
+ },
+ {
+  "id": "iphone-16-pro-max",
+  "name": "iPhone 16 Pro Max",
+  "family": "iPhone",
+  "kind": "phone",
+  "screen": {
+   "w": 1320,
+   "h": 2868
+  },
+  "cutout": {
+   "type": "island"
+  },
+  "radiusPt": 62,
+  "scale": 3,
+  "colors": [
+   {
+    "name": "Black Titanium",
+    "hex": "#3C3C3D"
+   },
+   {
+    "name": "White Titanium",
+    "hex": "#F2F1ED"
+   },
+   {
+    "name": "Natural Titanium",
+    "hex": "#C2BCB2"
+   },
+   {
+    "name": "Desert Titanium",
+    "hex": "#BFA48F"
+   }
+  ],
+  "year": 2024,
+  "source": "https://support.apple.com/en-us/121032"
+ },
+ {
+  "id": "iphone-15",
+  "name": "iPhone 15",
+  "family": "iPhone",
+  "kind": "phone",
+  "screen": {
+   "w": 1179,
+   "h": 2556
+  },
+  "cutout": {
+   "type": "island"
+  },
+  "radiusPt": 55,
+  "scale": 3,
+  "colors": [
+   {
+    "name": "Black",
+    "hex": "#35393B"
+   },
+   {
+    "name": "Blue",
+    "hex": "#D4E4ED"
+   },
+   {
+    "name": "Green",
+    "hex": "#E3E9DA"
+   },
+   {
+    "name": "Pink",
+    "hex": "#F2DBE0"
+   }
+  ],
+  "year": 2023,
+  "source": "https://support.apple.com/kb/SP901"
+ },
+ {
+  "id": "iphone-15-plus",
+  "name": "iPhone 15 Plus",
+  "family": "iPhone",
+  "kind": "phone",
+  "screen": {
+   "w": 1290,
+   "h": 2796
+  },
+  "cutout": {
+   "type": "island"
+  },
+  "radiusPt": 55,
+  "scale": 3,
+  "colors": [
+   {
+    "name": "Black",
+    "hex": "#35393B"
+   },
+   {
+    "name": "Blue",
+    "hex": "#D4E4ED"
+   },
+   {
+    "name": "Yellow",
+    "hex": "#F9EDC5"
+   },
+   {
+    "name": "Pink",
+    "hex": "#F2DBE0"
+   }
+  ],
+  "year": 2023,
+  "source": "https://support.apple.com/kb/SP902"
+ },
+ {
+  "id": "iphone-15-pro",
+  "name": "iPhone 15 Pro",
+  "family": "iPhone",
+  "kind": "phone",
+  "screen": {
+   "w": 1179,
+   "h": 2556
+  },
+  "cutout": {
+   "type": "island"
+  },
+  "radiusPt": 55,
+  "scale": 3,
+  "colors": [
+   {
+    "name": "Natural Titanium",
+    "hex": "#BAB4A9"
+   },
+   {
+    "name": "Blue Titanium",
+    "hex": "#3F4555"
+   },
+   {
+    "name": "White Titanium",
+    "hex": "#F2F1ED"
+   },
+   {
+    "name": "Black Titanium",
+    "hex": "#3C3C3D"
+   }
+  ],
+  "year": 2023,
+  "source": "https://support.apple.com/kb/SP903"
+ },
+ {
+  "id": "iphone-15-pro-max",
+  "name": "iPhone 15 Pro Max",
+  "family": "iPhone",
+  "kind": "phone",
+  "screen": {
+   "w": 1290,
+   "h": 2796
+  },
+  "cutout": {
+   "type": "island"
+  },
+  "radiusPt": 55,
+  "scale": 3,
+  "colors": [
+   {
+    "name": "Natural Titanium",
+    "hex": "#BAB4A9"
+   },
+   {
+    "name": "Blue Titanium",
+    "hex": "#3F4555"
+   },
+   {
+    "name": "White Titanium",
+    "hex": "#F2F1ED"
+   },
+   {
+    "name": "Black Titanium",
+    "hex": "#3C3C3D"
+   }
+  ],
+  "year": 2023,
+  "source": "https://support.apple.com/kb/SP904"
+ },
+ {
+  "id": "iphone-14",
+  "name": "iPhone 14",
+  "family": "iPhone",
+  "kind": "phone",
+  "screen": {
+   "w": 1170,
+   "h": 2532
+  },
+  "cutout": {
+   "type": "notch",
+   "w": 0.42
+  },
+  "radiusPt": 47.33,
+  "scale": 3,
+  "colors": [
+   {
+    "name": "Midnight",
+    "hex": "#222930"
+   },
+   {
+    "name": "Starlight",
+    "hex": "#FAF6F2"
+   },
+   {
+    "name": "Blue",
+    "hex": "#A0B4C7"
+   },
+   {
+    "name": "Purple",
+    "hex": "#E5DDEA"
+   }
+  ],
+  "year": 2022,
+  "source": "https://support.apple.com/kb/SP873"
+ },
+ {
+  "id": "iphone-14-plus",
+  "name": "iPhone 14 Plus",
+  "family": "iPhone",
+  "kind": "phone",
+  "screen": {
+   "w": 1284,
+   "h": 2778
+  },
+  "cutout": {
+   "type": "notch",
+   "w": 0.38
+  },
+  "radiusPt": 53.33,
+  "scale": 3,
+  "colors": [
+   {
+    "name": "Midnight",
+    "hex": "#222930"
+   },
+   {
+    "name": "Starlight",
+    "hex": "#FAF6F2"
+   },
+   {
+    "name": "Blue",
+    "hex": "#A0B4C7"
+   },
+   {
+    "name": "Yellow",
+    "hex": "#F9E479"
+   }
+  ],
+  "year": 2022,
+  "source": "https://support.apple.com/kb/SP874"
+ },
+ {
+  "id": "iphone-14-pro",
+  "name": "iPhone 14 Pro",
+  "family": "iPhone",
+  "kind": "phone",
+  "screen": {
+   "w": 1179,
+   "h": 2556
+  },
+  "cutout": {
+   "type": "island"
+  },
+  "radiusPt": 55,
+  "scale": 3,
+  "colors": [
+   {
+    "name": "Space Black",
+    "hex": "#403E3D"
+   },
+   {
+    "name": "Silver",
+    "hex": "#F0F2F2"
+   },
+   {
+    "name": "Gold",
+    "hex": "#F4E8CE"
+   },
+   {
+    "name": "Deep Purple",
+    "hex": "#594F63"
+   }
+  ],
+  "year": 2022,
+  "source": "https://support.apple.com/kb/SP875"
+ },
+ {
+  "id": "iphone-14-pro-max",
+  "name": "iPhone 14 Pro Max",
+  "family": "iPhone",
+  "kind": "phone",
+  "screen": {
+   "w": 1290,
+   "h": 2796
+  },
+  "cutout": {
+   "type": "island"
+  },
+  "radiusPt": 55,
+  "scale": 3,
+  "colors": [
+   {
+    "name": "Space Black",
+    "hex": "#403E3D"
+   },
+   {
+    "name": "Silver",
+    "hex": "#F0F2F2"
+   },
+   {
+    "name": "Gold",
+    "hex": "#F4E8CE"
+   },
+   {
+    "name": "Deep Purple",
+    "hex": "#594F63"
+   }
+  ],
+  "year": 2022,
+  "source": "https://support.apple.com/kb/SP876"
+ },
+ {
+  "id": "iphone-se-3",
+  "name": "iPhone SE (3rd generation)",
+  "family": "iPhone",
+  "kind": "phone",
+  "screen": {
+   "w": 750,
+   "h": 1334
+  },
+  "cutout": {
+   "type": "homebutton"
+  },
+  "radiusPt": 0,
+  "scale": 2,
+  "colors": [
+   {
+    "name": "Midnight",
+    "hex": "#1F2329"
+   },
+   {
+    "name": "Starlight",
+    "hex": "#F9F3EE"
+   },
+   {
+    "name": "(PRODUCT)RED",
+    "hex": "#BF0013"
+   }
+  ],
+  "year": 2022,
+  "source": "https://support.apple.com/kb/SP867"
+ },
+ {
+  "id": "iphone-13",
+  "name": "iPhone 13",
+  "family": "iPhone",
+  "kind": "phone",
+  "screen": {
+   "w": 1170,
+   "h": 2532
+  },
+  "cutout": {
+   "type": "notch",
+   "w": 0.42
+  },
+  "radiusPt": 47.33,
+  "scale": 3,
+  "colors": [
+   {
+    "name": "Midnight",
+    "hex": "#232A31"
+   },
+   {
+    "name": "Starlight",
+    "hex": "#FAF6F2"
+   },
+   {
+    "name": "Blue",
+    "hex": "#276787"
+   },
+   {
+    "name": "Pink",
+    "hex": "#FADDD7"
+   }
+  ],
+  "year": 2021,
+  "source": "https://support.apple.com/kb/SP851"
+ },
+ {
+  "id": "iphone-13-mini",
+  "name": "iPhone 13 mini",
+  "family": "iPhone",
+  "kind": "phone",
+  "screen": {
+   "w": 1080,
+   "h": 2340
+  },
+  "cutout": {
+   "type": "notch",
+   "w": 0.47
+  },
+  "radiusPt": 44,
+  "scale": 3,
+  "colors": [
+   {
+    "name": "Midnight",
+    "hex": "#232A31"
+   },
+   {
+    "name": "Starlight",
+    "hex": "#FAF6F2"
+   },
+   {
+    "name": "Blue",
+    "hex": "#276787"
+   },
+   {
+    "name": "Green",
+    "hex": "#394C38"
+   }
+  ],
+  "year": 2021,
+  "source": "https://support.apple.com/kb/SP847"
+ },
+ {
+  "id": "iphone-12",
+  "name": "iPhone 12",
+  "family": "iPhone",
+  "kind": "phone",
+  "screen": {
+   "w": 1170,
+   "h": 2532
+  },
+  "cutout": {
+   "type": "notch",
+   "w": 0.54
+  },
+  "radiusPt": 47.33,
+  "scale": 3,
+  "colors": [
+   {
+    "name": "Black",
+    "hex": "#25212B"
+   },
+   {
+    "name": "White",
+    "hex": "#F6F2EF"
+   },
+   {
+    "name": "Blue",
+    "hex": "#023B63"
+   },
+   {
+    "name": "Purple",
+    "hex": "#B7AFE6"
+   }
+  ],
+  "year": 2020,
+  "source": "https://support.apple.com/kb/SP830"
+ },
+ {
+  "id": "iphone-12-mini",
+  "name": "iPhone 12 mini",
+  "family": "iPhone",
+  "kind": "phone",
+  "screen": {
+   "w": 1080,
+   "h": 2340
+  },
+  "cutout": {
+   "type": "notch",
+   "w": 0.6
+  },
+  "radiusPt": 44,
+  "scale": 3,
+  "colors": [
+   {
+    "name": "Black",
+    "hex": "#25212B"
+   },
+   {
+    "name": "White",
+    "hex": "#F6F2EF"
+   },
+   {
+    "name": "Blue",
+    "hex": "#023B63"
+   },
+   {
+    "name": "Green",
+    "hex": "#D8EFD5"
+   }
+  ],
+  "year": 2020,
+  "source": "https://support.apple.com/kb/SP829"
+ },
+ {
+  "id": "iphone-11",
+  "name": "iPhone 11",
+  "family": "iPhone",
+  "kind": "phone",
+  "screen": {
+   "w": 828,
+   "h": 1792
+  },
+  "cutout": {
+   "type": "notch",
+   "w": 0.56
+  },
+  "radiusPt": 41.5,
+  "scale": 2,
+  "colors": [
+   {
+    "name": "Black",
+    "hex": "#1F2020"
+   },
+   {
+    "name": "White",
+    "hex": "#F9F6EF"
+   },
+   {
+    "name": "Purple",
+    "hex": "#D1CDDA"
+   },
+   {
+    "name": "Green",
+    "hex": "#AEE1CD"
+   }
+  ],
+  "year": 2019,
+  "source": "https://support.apple.com/kb/SP804"
+ },
+ {
+  "id": "ipad-mini-a20-pro",
+  "name": "iPad mini (A20 Pro, OLED)",
+  "family": "iPad",
+  "kind": "tablet",
+  "screen": {
+   "w": 1512,
+   "h": 2316
+  },
+  "cutout": {
+   "type": "none"
+  },
+  "radiusPt": 0,
+  "scale": 2,
+  "colors": [
+   {
+    "name": "Midnight",
+    "hex": "#2E3440"
+   },
+   {
+    "name": "Starlight",
+    "hex": "#E6DFD3"
+   }
+  ],
+  "year": 2026,
+  "source": "https://www.apple.com/ipad-mini/specs/"
+ },
+ {
+  "id": "ipad-a16",
+  "name": "iPad (A16)",
+  "family": "iPad",
+  "kind": "tablet",
+  "screen": {
+   "w": 1640,
+   "h": 2360
+  },
+  "cutout": {
+   "type": "none"
+  },
+  "radiusPt": 18,
+  "scale": 2,
+  "colors": [
+   {
+    "name": "Silver",
+    "hex": "#E3E4E5"
+   },
+   {
+    "name": "Blue",
+    "hex": "#6F8FAF"
+   },
+   {
+    "name": "Pink",
+    "hex": "#E8A9B8"
+   },
+   {
+    "name": "Yellow",
+    "hex": "#F2D46B"
+   }
+  ],
+  "year": 2025,
+  "source": "https://www.apple.com/ipad-11/specs/"
+ },
+ {
+  "id": "ipad-air-11-m2-m3-m4",
+  "name": "iPad Air 11\" (M2 / M3 / M4)",
+  "family": "iPad",
+  "kind": "tablet",
+  "screen": {
+   "w": 1640,
+   "h": 2360
+  },
+  "cutout": {
+   "type": "none"
+  },
+  "radiusPt": 18,
+  "scale": 2,
+  "colors": [
+   {
+    "name": "Space Gray",
+    "hex": "#5C5F63"
+   },
+   {
+    "name": "Blue",
+    "hex": "#8EA3B8"
+   },
+   {
+    "name": "Purple",
+    "hex": "#B7A9C8"
+   },
+   {
+    "name": "Starlight",
+    "hex": "#E6DFD3"
+   }
+  ],
+  "year": 2024,
+  "source": "https://www.apple.com/ipad/compare/"
+ },
+ {
+  "id": "ipad-air-13-m2-m3-m4",
+  "name": "iPad Air 13\" (M2 / M3 / M4)",
+  "family": "iPad",
+  "kind": "tablet",
+  "screen": {
+   "w": 2048,
+   "h": 2732
+  },
+  "cutout": {
+   "type": "none"
+  },
+  "radiusPt": 18,
+  "scale": 2,
+  "colors": [
+   {
+    "name": "Space Gray",
+    "hex": "#5C5F63"
+   },
+   {
+    "name": "Blue",
+    "hex": "#8EA3B8"
+   },
+   {
+    "name": "Purple",
+    "hex": "#B7A9C8"
+   },
+   {
+    "name": "Starlight",
+    "hex": "#E6DFD3"
+   }
+  ],
+  "year": 2024,
+  "source": "https://www.apple.com/ipad/compare/"
+ },
+ {
+  "id": "ipad-pro-11-m4-m5",
+  "name": "iPad Pro 11\" (M4 / M5)",
+  "family": "iPad",
+  "kind": "tablet",
+  "screen": {
+   "w": 1668,
+   "h": 2420
+  },
+  "cutout": {
+   "type": "none"
+  },
+  "radiusPt": 18,
+  "scale": 2,
+  "colors": [
+   {
+    "name": "Space Black",
+    "hex": "#2B2B2D"
+   },
+   {
+    "name": "Silver",
+    "hex": "#E3E4E5"
+   }
+  ],
+  "year": 2024,
+  "source": "https://www.apple.com/ipad-pro/specs/"
+ },
+ {
+  "id": "ipad-pro-13-m4-m5",
+  "name": "iPad Pro 13\" (M4 / M5)",
+  "family": "iPad",
+  "kind": "tablet",
+  "screen": {
+   "w": 2064,
+   "h": 2752
+  },
+  "cutout": {
+   "type": "none"
+  },
+  "radiusPt": 18,
+  "scale": 2,
+  "colors": [
+   {
+    "name": "Space Black",
+    "hex": "#2B2B2D"
+   },
+   {
+    "name": "Silver",
+    "hex": "#E3E4E5"
+   }
+  ],
+  "year": 2024,
+  "source": "https://www.apple.com/ipad-pro/specs/"
+ },
+ {
+  "id": "ipad-mini-a17-pro",
+  "name": "iPad mini (A17 Pro)",
+  "family": "iPad",
+  "kind": "tablet",
+  "screen": {
+   "w": 1488,
+   "h": 2266
+  },
+  "cutout": {
+   "type": "none"
+  },
+  "radiusPt": 21.5,
+  "scale": 2,
+  "colors": [
+   {
+    "name": "Space Gray",
+    "hex": "#5C5F63"
+   },
+   {
+    "name": "Blue",
+    "hex": "#8FA6BF"
+   },
+   {
+    "name": "Purple",
+    "hex": "#B9A8C9"
+   },
+   {
+    "name": "Starlight",
+    "hex": "#E6DFD3"
+   }
+  ],
+  "year": 2024,
+  "source": "https://support.apple.com/en-us/121456"
+ },
+ {
+  "id": "macbook-neo",
+  "name": "MacBook Neo 13\"",
+  "family": "Mac",
+  "kind": "laptop",
+  "screen": {
+   "w": 2408,
+   "h": 1506
+  },
+  "cutout": {
+   "type": "none"
+  },
+  "radiusPt": 0,
+  "scale": 2,
+  "colors": [
+   {
+    "name": "Silver",
+    "hex": "#E3E4E5"
+   },
+   {
+    "name": "Blush",
+    "hex": "#EBCFC9"
+   },
+   {
+    "name": "Citrus",
+    "hex": "#E6E2B0"
+   },
+   {
+    "name": "Indigo",
+    "hex": "#3B4A6B"
+   }
+  ],
+  "year": 2026,
+  "source": "https://support.apple.com/126322"
+ },
+ {
+  "id": "macbook-air-15-m2-m5",
+  "name": "MacBook Air 15\" (M2 / M3 / M4 / M5)",
+  "family": "Mac",
+  "kind": "laptop",
+  "screen": {
+   "w": 2880,
+   "h": 1864
+  },
+  "cutout": {
+   "type": "laptop-notch"
+  },
+  "radiusPt": 0,
+  "scale": 2,
+  "colors": [
+   {
+    "name": "Sky Blue",
+    "hex": "#B8CCDD"
+   },
+   {
+    "name": "Silver",
+    "hex": "#E3E4E5"
+   },
+   {
+    "name": "Starlight",
+    "hex": "#E6DFD3"
+   },
+   {
+    "name": "Midnight",
+    "hex": "#2E3440"
+   }
+  ],
+  "year": 2023,
+  "source": "https://www.apple.com/macbook-air/specs/"
+ },
+ {
+  "id": "macbook-air-13-m2-m5",
+  "name": "MacBook Air 13\" (M2 / M3 / M4 / M5)",
+  "family": "Mac",
+  "kind": "laptop",
+  "screen": {
+   "w": 2560,
+   "h": 1664
+  },
+  "cutout": {
+   "type": "laptop-notch"
+  },
+  "radiusPt": 0,
+  "scale": 2,
+  "colors": [
+   {
+    "name": "Sky Blue",
+    "hex": "#B8CCDD"
+   },
+   {
+    "name": "Silver",
+    "hex": "#E3E4E5"
+   },
+   {
+    "name": "Starlight",
+    "hex": "#E6DFD3"
+   },
+   {
+    "name": "Midnight",
+    "hex": "#2E3440"
+   }
+  ],
+  "year": 2022,
+  "source": "https://www.apple.com/macbook-air/specs/"
+ },
+ {
+  "id": "macbook-pro-14-notch",
+  "name": "MacBook Pro 14\" (M1 Pro through M6)",
+  "family": "Mac",
+  "kind": "laptop",
+  "screen": {
+   "w": 3024,
+   "h": 1964
+  },
+  "cutout": {
+   "type": "laptop-notch"
+  },
+  "radiusPt": 0,
+  "scale": 2,
+  "colors": [
+   {
+    "name": "Space Black",
+    "hex": "#2B2B2D"
+   },
+   {
+    "name": "Silver",
+    "hex": "#E3E4E5"
+   }
+  ],
+  "year": 2021,
+  "source": "https://www.apple.com/macbook-pro/specs/"
+ },
+ {
+  "id": "macbook-pro-16-notch",
+  "name": "MacBook Pro 16\" (M1 Pro through M5 Pro/Max)",
+  "family": "Mac",
+  "kind": "laptop",
+  "screen": {
+   "w": 3456,
+   "h": 2234
+  },
+  "cutout": {
+   "type": "laptop-notch"
+  },
+  "radiusPt": 0,
+  "scale": 2,
+  "colors": [
+   {
+    "name": "Space Black",
+    "hex": "#2B2B2D"
+   },
+   {
+    "name": "Silver",
+    "hex": "#E3E4E5"
+   }
+  ],
+  "year": 2021,
+  "source": "https://www.apple.com/macbook-pro/specs/"
+ },
+ {
+  "id": "apple-watch-series-12-42mm",
+  "name": "Apple Watch Series 12 (42mm)",
+  "family": "Watch",
+  "kind": "watch",
+  "screen": {
+   "w": 374,
+   "h": 446
+  },
+  "cutout": {
+   "type": "none"
+  },
+  "radiusPt": 0,
+  "scale": 2,
+  "colors": [
+   {
+    "name": "Dark Bronze (aluminum)",
+    "hex": "#5C4A3D"
+   },
+   {
+    "name": "Light Gold (aluminum)",
+    "hex": "#E5D3B3"
+   },
+   {
+    "name": "Black (aluminum)",
+    "hex": "#1C1C1E"
+   },
+   {
+    "name": "Space Gray (aluminum)",
+    "hex": "#5A5B5E"
+   }
+  ],
+  "year": 2026,
+  "source": "https://www.apple.com/apple-watch-series-12/specs/"
+ },
+ {
+  "id": "apple-watch-series-12-46mm",
+  "name": "Apple Watch Series 12 (46mm)",
+  "family": "Watch",
+  "kind": "watch",
+  "screen": {
+   "w": 416,
+   "h": 496
+  },
+  "cutout": {
+   "type": "none"
+  },
+  "radiusPt": 0,
+  "scale": 2,
+  "colors": [
+   {
+    "name": "Black (aluminum)",
+    "hex": "#1C1C1E"
+   },
+   {
+    "name": "Natural (titanium)",
+    "hex": "#C2BCB2"
+   },
+   {
+    "name": "Radiant Gold (titanium)",
+    "hex": "#D9BE8C"
+   },
+   {
+    "name": "Night Blue (ceramic)",
+    "hex": "#26324A"
+   }
+  ],
+  "year": 2026,
+  "source": "https://www.apple.com/apple-watch-series-12/specs/"
+ },
+ {
+  "id": "apple-watch-ultra-4-3",
+  "name": "Apple Watch Ultra 4 / Ultra 3 (49mm)",
+  "family": "Watch",
+  "kind": "watch",
+  "screen": {
+   "w": 422,
+   "h": 514
+  },
+  "cutout": {
+   "type": "none"
+  },
+  "radiusPt": 0,
+  "scale": 2,
+  "colors": [
+   {
+    "name": "Natural Titanium",
+    "hex": "#C9C2B6"
+   },
+   {
+    "name": "Black Titanium",
+    "hex": "#2B2B2D"
+   }
+  ],
+  "year": 2026,
+  "source": "https://www.apple.com/apple-watch-ultra-4/specs/"
+ },
+ {
+  "id": "apple-watch-se-40mm",
+  "name": "Apple Watch SE 3 / SE 2nd gen (40mm)",
+  "family": "Watch",
+  "kind": "watch",
+  "screen": {
+   "w": 324,
+   "h": 394
+  },
+  "cutout": {
+   "type": "none"
+  },
+  "radiusPt": 0,
+  "scale": 2,
+  "colors": [
+   {
+    "name": "Midnight",
+    "hex": "#2A2E35"
+   },
+   {
+    "name": "Starlight",
+    "hex": "#E3DCCF"
+   },
+   {
+    "name": "Silver (SE 2nd gen)",
+    "hex": "#E3E4E6"
+   }
+  ],
+  "year": 2025,
+  "source": "https://www.apple.com/apple-watch-se-3/specs/"
+ },
+ {
+  "id": "apple-watch-se-44mm",
+  "name": "Apple Watch SE 3 / SE 2nd gen (44mm)",
+  "family": "Watch",
+  "kind": "watch",
+  "screen": {
+   "w": 368,
+   "h": 448
+  },
+  "cutout": {
+   "type": "none"
+  },
+  "radiusPt": 0,
+  "scale": 2,
+  "colors": [
+   {
+    "name": "Midnight",
+    "hex": "#2A2E35"
+   },
+   {
+    "name": "Starlight",
+    "hex": "#E3DCCF"
+   },
+   {
+    "name": "Silver (SE 2nd gen)",
+    "hex": "#E3E4E6"
+   }
+  ],
+  "year": 2025,
+  "source": "https://www.apple.com/apple-watch-se-3/specs/"
+ },
+ {
+  "id": "apple-watch-series-11-10-42mm",
+  "name": "Apple Watch Series 11 / 10 (42mm)",
+  "family": "Watch",
+  "kind": "watch",
+  "screen": {
+   "w": 374,
+   "h": 446
+  },
+  "cutout": {
+   "type": "none"
+  },
+  "radiusPt": 0,
+  "scale": 2,
+  "colors": [
+   {
+    "name": "Jet Black (aluminum)",
+    "hex": "#1C1C1E"
+   },
+   {
+    "name": "Silver (aluminum)",
+    "hex": "#D9D9DB"
+   },
+   {
+    "name": "Rose Gold (aluminum)",
+    "hex": "#E8C9B9"
+   },
+   {
+    "name": "Space Gray (aluminum, S11)",
+    "hex": "#5A5B5E"
+   }
+  ],
+  "year": 2025,
+  "source": "https://www.apple.com/apple-watch-series-11/specs/"
+ },
+ {
+  "id": "apple-watch-series-11-10-46mm",
+  "name": "Apple Watch Series 11 / 10 (46mm)",
+  "family": "Watch",
+  "kind": "watch",
+  "screen": {
+   "w": 416,
+   "h": 496
+  },
+  "cutout": {
+   "type": "none"
+  },
+  "radiusPt": 0,
+  "scale": 2,
+  "colors": [
+   {
+    "name": "Jet Black (aluminum)",
+    "hex": "#1C1C1E"
+   },
+   {
+    "name": "Silver (aluminum)",
+    "hex": "#D9D9DB"
+   },
+   {
+    "name": "Natural (titanium)",
+    "hex": "#C2BCB2"
+   },
+   {
+    "name": "Slate (titanium)",
+    "hex": "#4A4A4C"
+   }
+  ],
+  "year": 2025,
+  "source": "https://www.apple.com/apple-watch-series-11/specs/"
+ },
+ {
+  "id": "apple-watch-ultra-2",
+  "name": "Apple Watch Ultra 2 (49mm)",
+  "family": "Watch",
+  "kind": "watch",
+  "screen": {
+   "w": 410,
+   "h": 502
+  },
+  "cutout": {
+   "type": "none"
+  },
+  "radiusPt": 0,
+  "scale": 2,
+  "colors": [
+   {
+    "name": "Natural Titanium",
+    "hex": "#C9C2B6"
+   },
+   {
+    "name": "Black Titanium",
+    "hex": "#2B2B2D"
+   }
+  ],
+  "year": 2023,
+  "source": "https://support.apple.com/en-gb/111832"
+ },
+ {
+  "id": "pixel-10a",
+  "name": "Google Pixel 10a",
+  "family": "Android",
+  "kind": "phone",
+  "screen": {
+   "w": 1080,
+   "h": 2424
+  },
+  "cutout": {
+   "type": "punch"
+  },
+  "radiusPt": 0,
+  "scale": 2.625,
+  "colors": [
+   {
+    "name": "Obsidian",
+    "hex": "#202124"
+   },
+   {
+    "name": "Frost",
+    "hex": "#DFE6EC"
+   },
+   {
+    "name": "Indigo",
+    "hex": "#4A4F8F"
+   },
+   {
+    "name": "Lemongrass",
+    "hex": "#D9E07A"
+   }
+  ],
+  "year": 2026,
+  "source": "https://store.google.com/product/pixel_10a_specs"
+ },
+ {
+  "id": "pixel-11",
+  "name": "Google Pixel 11",
+  "family": "Android",
+  "kind": "phone",
+  "screen": {
+   "w": 1080,
+   "h": 2424
+  },
+  "cutout": {
+   "type": "punch"
+  },
+  "radiusPt": 0,
+  "scale": 2.625,
+  "colors": [
+   {
+    "name": "Obsidian",
+    "hex": "#202124"
+   },
+   {
+    "name": "Frost",
+    "hex": "#DFE6EC"
+   },
+   {
+    "name": "Pistachio",
+    "hex": "#C8D9A8"
+   },
+   {
+    "name": "Hibiscus",
+    "hex": "#D6607A"
+   }
+  ],
+  "year": 2026,
+  "source": "https://store.google.com/us/product/pixel_11_specs"
+ },
+ {
+  "id": "pixel-11-pro",
+  "name": "Google Pixel 11 Pro",
+  "family": "Android",
+  "kind": "phone",
+  "screen": {
+   "w": 1280,
+   "h": 2856
+  },
+  "cutout": {
+   "type": "punch"
+  },
+  "radiusPt": 0,
+  "scale": 3,
+  "colors": [
+   {
+    "name": "Obsidian",
+    "hex": "#1E1F21"
+   },
+   {
+    "name": "Fog",
+    "hex": "#D8DADC"
+   },
+   {
+    "name": "Canyon",
+    "hex": "#B07A5A"
+   },
+   {
+    "name": "Olive",
+    "hex": "#6F7458"
+   }
+  ],
+  "year": 2026,
+  "source": "https://store.google.com/us/product/pixel_11_pro_specs?hl=en-US"
+ },
+ {
+  "id": "pixel-11-pro-xl",
+  "name": "Google Pixel 11 Pro XL",
+  "family": "Android",
+  "kind": "phone",
+  "screen": {
+   "w": 1344,
+   "h": 2992
+  },
+  "cutout": {
+   "type": "punch"
+  },
+  "radiusPt": 0,
+  "scale": 3,
+  "colors": [
+   {
+    "name": "Obsidian",
+    "hex": "#1E1F21"
+   },
+   {
+    "name": "Fog",
+    "hex": "#D8DADC"
+   },
+   {
+    "name": "Canyon",
+    "hex": "#B07A5A"
+   },
+   {
+    "name": "Olive",
+    "hex": "#6F7458"
+   }
+  ],
+  "year": 2026,
+  "source": "https://store.google.com/us/product/pixel_11_pro_specs?hl=en-US"
+ },
+ {
+  "id": "galaxy-a57",
+  "name": "Samsung Galaxy A57 / A56 / A55",
+  "family": "Android",
+  "kind": "phone",
+  "screen": {
+   "w": 1080,
+   "h": 2340
+  },
+  "cutout": {
+   "type": "punch"
+  },
+  "radiusPt": 0,
+  "scale": 2.625,
+  "colors": [
+   {
+    "name": "Awesome Navy",
+    "hex": "#2C3650"
+   },
+   {
+    "name": "Awesome Gray",
+    "hex": "#8E8F91"
+   },
+   {
+    "name": "Awesome Icyblue",
+    "hex": "#BCD3E6"
+   },
+   {
+    "name": "Awesome Lilac",
+    "hex": "#D2C4E2"
+   }
+  ],
+  "year": 2026,
+  "source": "https://www.samsung.com/sa_en/smartphones/galaxy-a/galaxy-a57-5g/buy/"
+ },
+ {
+  "id": "galaxy-s26",
+  "name": "Samsung Galaxy S26",
+  "family": "Android",
+  "kind": "phone",
+  "screen": {
+   "w": 1080,
+   "h": 2340
+  },
+  "cutout": {
+   "type": "punch"
+  },
+  "radiusPt": 0,
+  "scale": 2.625,
+  "colors": [
+   {
+    "name": "Cobalt Violet",
+    "hex": "#5A4F8A"
+   },
+   {
+    "name": "Sky Blue",
+    "hex": "#A9C5E0"
+   },
+   {
+    "name": "Black",
+    "hex": "#1C1C1E"
+   },
+   {
+    "name": "White",
+    "hex": "#F0F0EE"
+   }
+  ],
+  "year": 2026,
+  "source": "https://www.samsung.com/uk/smartphones/galaxy-s26/compare/"
+ },
+ {
+  "id": "galaxy-s26-ultra",
+  "name": "Samsung Galaxy S26 Ultra",
+  "family": "Android",
+  "kind": "phone",
+  "screen": {
+   "w": 1440,
+   "h": 3120
+  },
+  "cutout": {
+   "type": "punch"
+  },
+  "radiusPt": 0,
+  "scale": 3.5,
+  "colors": [
+   {
+    "name": "Cobalt Violet",
+    "hex": "#5A4F8A"
+   },
+   {
+    "name": "Black",
+    "hex": "#1C1C1E"
+   },
+   {
+    "name": "White",
+    "hex": "#F0F0EE"
+   },
+   {
+    "name": "Silver Shadow",
+    "hex": "#C7C8CA"
+   }
+  ],
+  "year": 2026,
+  "source": "https://www.samsung.com/ph/smartphones/galaxy-s26-ultra/specs/"
+ },
+ {
+  "id": "galaxy-s26-plus",
+  "name": "Samsung Galaxy S26+",
+  "family": "Android",
+  "kind": "phone",
+  "screen": {
+   "w": 1440,
+   "h": 3120
+  },
+  "cutout": {
+   "type": "punch"
+  },
+  "radiusPt": 0,
+  "scale": 3.5,
+  "colors": [
+   {
+    "name": "Cobalt Violet",
+    "hex": "#5A4F8A"
+   },
+   {
+    "name": "Sky Blue",
+    "hex": "#A9C5E0"
+   },
+   {
+    "name": "Black",
+    "hex": "#1C1C1E"
+   },
+   {
+    "name": "White",
+    "hex": "#F0F0EE"
+   }
+  ],
+  "year": 2026,
+  "source": "https://www.samsung.com/uk/smartphones/galaxy-s26/compare/"
+ },
+ {
+  "id": "pixel-10",
+  "name": "Google Pixel 10",
+  "family": "Android",
+  "kind": "phone",
+  "screen": {
+   "w": 1080,
+   "h": 2424
+  },
+  "cutout": {
+   "type": "punch"
+  },
+  "radiusPt": 0,
+  "scale": 2.625,
+  "colors": [
+   {
+    "name": "Obsidian",
+    "hex": "#202124"
+   },
+   {
+    "name": "Frost",
+    "hex": "#DFE6EC"
+   },
+   {
+    "name": "Indigo",
+    "hex": "#4A4F8F"
+   },
+   {
+    "name": "Lemongrass",
+    "hex": "#D9E07A"
+   }
+  ],
+  "year": 2025,
+  "source": "https://store.google.com/product/pixel_10_specs"
+ },
+ {
+  "id": "pixel-10-pro",
+  "name": "Google Pixel 10 Pro",
+  "family": "Android",
+  "kind": "phone",
+  "screen": {
+   "w": 1280,
+   "h": 2856
+  },
+  "cutout": {
+   "type": "punch"
+  },
+  "radiusPt": 0,
+  "scale": 3,
+  "colors": [
+   {
+    "name": "Obsidian",
+    "hex": "#202124"
+   },
+   {
+    "name": "Porcelain",
+    "hex": "#ECE6DC"
+   },
+   {
+    "name": "Moonstone",
+    "hex": "#7D8A96"
+   },
+   {
+    "name": "Jade",
+    "hex": "#C9DCC4"
+   }
+  ],
+  "year": 2025,
+  "source": "https://store.google.com/product/pixel_10_pro_specs"
+ },
+ {
+  "id": "pixel-10-pro-xl",
+  "name": "Google Pixel 10 Pro XL",
+  "family": "Android",
+  "kind": "phone",
+  "screen": {
+   "w": 1344,
+   "h": 2992
+  },
+  "cutout": {
+   "type": "punch"
+  },
+  "radiusPt": 0,
+  "scale": 3,
+  "colors": [
+   {
+    "name": "Obsidian",
+    "hex": "#202124"
+   },
+   {
+    "name": "Porcelain",
+    "hex": "#ECE6DC"
+   },
+   {
+    "name": "Moonstone",
+    "hex": "#7D8A96"
+   },
+   {
+    "name": "Jade",
+    "hex": "#C9DCC4"
+   }
+  ],
+  "year": 2025,
+  "source": "https://store.google.com/product/pixel_10_pro_specs"
+ },
+ {
+  "id": "oneplus-15",
+  "name": "OnePlus 15",
+  "family": "Android",
+  "kind": "phone",
+  "screen": {
+   "w": 1272,
+   "h": 2772
+  },
+  "cutout": {
+   "type": "punch"
+  },
+  "radiusPt": 0,
+  "scale": 3,
+  "colors": [
+   {
+    "name": "Infinite Black",
+    "hex": "#151517"
+   },
+   {
+    "name": "Ultra Violet",
+    "hex": "#6B5A8E"
+   },
+   {
+    "name": "Sand Storm",
+    "hex": "#C9B79A"
+   }
+  ],
+  "year": 2025,
+  "source": "https://www.gsmarena.com/oneplus_15_5g-14206.php"
+ },
+ {
+  "id": "galaxy-s25",
+  "name": "Samsung Galaxy S25",
+  "family": "Android",
+  "kind": "phone",
+  "screen": {
+   "w": 1080,
+   "h": 2340
+  },
+  "cutout": {
+   "type": "punch"
+  },
+  "radiusPt": 0,
+  "scale": 2.625,
+  "colors": [
+   {
+    "name": "Navy",
+    "hex": "#2E3647"
+   },
+   {
+    "name": "Icyblue",
+    "hex": "#B9CDE0"
+   },
+   {
+    "name": "Mint",
+    "hex": "#CFE3D6"
+   },
+   {
+    "name": "Silver Shadow",
+    "hex": "#C7C8CA"
+   }
+  ],
+  "year": 2025,
+  "source": "https://www.samsung.com/us/smartphones/galaxy-s25/specs/"
+ },
+ {
+  "id": "galaxy-s25-ultra",
+  "name": "Samsung Galaxy S25 Ultra",
+  "family": "Android",
+  "kind": "phone",
+  "screen": {
+   "w": 1440,
+   "h": 3120
+  },
+  "cutout": {
+   "type": "punch"
+  },
+  "radiusPt": 0,
+  "scale": 3.5,
+  "colors": [
+   {
+    "name": "Titanium Silverblue",
+    "hex": "#A5B4C3"
+   },
+   {
+    "name": "Titanium Black",
+    "hex": "#2F3033"
+   },
+   {
+    "name": "Titanium Gray",
+    "hex": "#8D8B87"
+   },
+   {
+    "name": "Titanium Whitesilver",
+    "hex": "#E4E4E2"
+   }
+  ],
+  "year": 2025,
+  "source": "https://www.samsung.com/us/smartphones/galaxy-s25-ultra/specs/"
+ },
+ {
+  "id": "galaxy-s25-plus",
+  "name": "Samsung Galaxy S25+",
+  "family": "Android",
+  "kind": "phone",
+  "screen": {
+   "w": 1440,
+   "h": 3120
+  },
+  "cutout": {
+   "type": "punch"
+  },
+  "radiusPt": 0,
+  "scale": 3.5,
+  "colors": [
+   {
+    "name": "Titanium Silverblue",
+    "hex": "#A5B4C3"
+   },
+   {
+    "name": "Titanium Black",
+    "hex": "#2F3033"
+   },
+   {
+    "name": "Titanium Gray",
+    "hex": "#8D8B87"
+   },
+   {
+    "name": "Titanium Whitesilver",
+    "hex": "#E4E4E2"
+   }
+  ],
+  "year": 2025,
+  "source": "https://www.samsung.com/us/smartphones/galaxy-s25/specs/"
+ },
+ {
+  "id": "pixel-9",
+  "name": "Google Pixel 9",
+  "family": "Android",
+  "kind": "phone",
+  "screen": {
+   "w": 1080,
+   "h": 2424
+  },
+  "cutout": {
+   "type": "punch"
+  },
+  "radiusPt": 0,
+  "scale": 2.625,
+  "colors": [
+   {
+    "name": "Obsidian",
+    "hex": "#202124"
+   },
+   {
+    "name": "Porcelain",
+    "hex": "#ECE6DC"
+   },
+   {
+    "name": "Wintergreen",
+    "hex": "#B9D6C4"
+   },
+   {
+    "name": "Peony",
+    "hex": "#F4A7C4"
+   }
+  ],
+  "year": 2024,
+  "source": "https://store.google.com/product/pixel_9_specs"
+ },
+ {
+  "id": "pixel-9-pro",
+  "name": "Google Pixel 9 Pro",
+  "family": "Android",
+  "kind": "phone",
+  "screen": {
+   "w": 1280,
+   "h": 2856
+  },
+  "cutout": {
+   "type": "punch"
+  },
+  "radiusPt": 0,
+  "scale": 3,
+  "colors": [
+   {
+    "name": "Obsidian",
+    "hex": "#202124"
+   },
+   {
+    "name": "Porcelain",
+    "hex": "#ECE6DC"
+   },
+   {
+    "name": "Hazel",
+    "hex": "#8E9187"
+   },
+   {
+    "name": "Rose Quartz",
+    "hex": "#F1CFD0"
+   }
+  ],
+  "year": 2024,
+  "source": "https://store.google.com/product/pixel_9_pro_specs"
+ },
+ {
+  "id": "pixel-9-pro-xl",
+  "name": "Google Pixel 9 Pro XL",
+  "family": "Android",
+  "kind": "phone",
+  "screen": {
+   "w": 1344,
+   "h": 2992
+  },
+  "cutout": {
+   "type": "punch"
+  },
+  "radiusPt": 0,
+  "scale": 3,
+  "colors": [
+   {
+    "name": "Obsidian",
+    "hex": "#202124"
+   },
+   {
+    "name": "Porcelain",
+    "hex": "#ECE6DC"
+   },
+   {
+    "name": "Hazel",
+    "hex": "#8E9187"
+   },
+   {
+    "name": "Rose Quartz",
+    "hex": "#F1CFD0"
+   }
+  ],
+  "year": 2024,
+  "source": "https://store.google.com/product/pixel_9_pro_specs"
+ },
+ {
+  "id": "oneplus-13",
+  "name": "OnePlus 13",
+  "family": "Android",
+  "kind": "phone",
+  "screen": {
+   "w": 1440,
+   "h": 3168
+  },
+  "cutout": {
+   "type": "punch"
+  },
+  "radiusPt": 0,
+  "scale": 3.5,
+  "colors": [
+   {
+    "name": "Black Eclipse",
+    "hex": "#1B1C1F"
+   },
+   {
+    "name": "Midnight Ocean",
+    "hex": "#2A3A5A"
+   },
+   {
+    "name": "Arctic Dawn",
+    "hex": "#E9E8E4"
+   }
+  ],
+  "year": 2024,
+  "source": "https://www.oneplus.com/us/13/specs"
+ },
+ {
+  "id": "galaxy-s24",
+  "name": "Samsung Galaxy S24",
+  "family": "Android",
+  "kind": "phone",
+  "screen": {
+   "w": 1080,
+   "h": 2340
+  },
+  "cutout": {
+   "type": "punch"
+  },
+  "radiusPt": 0,
+  "scale": 2.625,
+  "colors": [
+   {
+    "name": "Onyx Black",
+    "hex": "#2B2B2E"
+   },
+   {
+    "name": "Marble Grey",
+    "hex": "#C9C9C7"
+   },
+   {
+    "name": "Cobalt Violet",
+    "hex": "#8A7CA8"
+   },
+   {
+    "name": "Amber Yellow",
+    "hex": "#F0E3B0"
+   }
+  ],
+  "year": 2024,
+  "source": "https://www.samsung.com/us/smartphones/galaxy-s24/specs/"
+ },
+ {
+  "id": "galaxy-s24-ultra",
+  "name": "Samsung Galaxy S24 Ultra",
+  "family": "Android",
+  "kind": "phone",
+  "screen": {
+   "w": 1440,
+   "h": 3120
+  },
+  "cutout": {
+   "type": "punch"
+  },
+  "radiusPt": 0,
+  "scale": 3.5,
+  "colors": [
+   {
+    "name": "Titanium Black",
+    "hex": "#3A3A3C"
+   },
+   {
+    "name": "Titanium Gray",
+    "hex": "#8E8B86"
+   },
+   {
+    "name": "Titanium Violet",
+    "hex": "#6C6478"
+   },
+   {
+    "name": "Titanium Yellow",
+    "hex": "#E8DCB5"
+   }
+  ],
+  "year": 2024,
+  "source": "https://www.samsung.com/us/smartphones/galaxy-s24-ultra/specs/"
+ },
+ {
+  "id": "pixel-8",
+  "name": "Google Pixel 8",
+  "family": "Android",
+  "kind": "phone",
+  "screen": {
+   "w": 1080,
+   "h": 2400
+  },
+  "cutout": {
+   "type": "punch"
+  },
+  "radiusPt": 0,
+  "scale": 2.625,
+  "colors": [
+   {
+    "name": "Obsidian",
+    "hex": "#1F1F1F"
+   },
+   {
+    "name": "Hazel",
+    "hex": "#8C8F84"
+   },
+   {
+    "name": "Rose",
+    "hex": "#F2D4CF"
+   },
+   {
+    "name": "Mint",
+    "hex": "#CDE5D6"
+   }
+  ],
+  "year": 2023,
+  "source": "https://support.google.com/pixelphone/answer/7158570"
+ },
+ {
+  "id": "pixel-8-pro",
+  "name": "Google Pixel 8 Pro",
+  "family": "Android",
+  "kind": "phone",
+  "screen": {
+   "w": 1344,
+   "h": 2992
+  },
+  "cutout": {
+   "type": "punch"
+  },
+  "radiusPt": 0,
+  "scale": 3,
+  "colors": [
+   {
+    "name": "Obsidian",
+    "hex": "#1F1F1F"
+   },
+   {
+    "name": "Porcelain",
+    "hex": "#E8E2D6"
+   },
+   {
+    "name": "Bay",
+    "hex": "#8FB4D8"
+   },
+   {
+    "name": "Mint",
+    "hex": "#CDE5D6"
+   }
+  ],
+  "year": 2023,
+  "source": "https://support.google.com/pixelphone/answer/7158570"
+ },
+ {
+  "id": "oneplus-12",
+  "name": "OnePlus 12",
+  "family": "Android",
+  "kind": "phone",
+  "screen": {
+   "w": 1440,
+   "h": 3168
+  },
+  "cutout": {
+   "type": "punch",
+   "align": "left"
+  },
+  "radiusPt": 0,
+  "scale": 3.5,
+  "colors": [
+   {
+    "name": "Silky Black",
+    "hex": "#1D1E20"
+   },
+   {
+    "name": "Flowy Emerald",
+    "hex": "#2F5E4E"
+   },
+   {
+    "name": "Glacial White",
+    "hex": "#EEF0EF"
+   }
+  ],
+  "year": 2023,
+  "source": "https://www.oneplus.com/us/12/specs"
+ }
+]
